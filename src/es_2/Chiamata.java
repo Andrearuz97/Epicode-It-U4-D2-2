@@ -1,20 +1,19 @@
 package es_2;
 
 public class Chiamata {
-    private String numeroChiamato;
-    private int durata;
+	private String numeroChiamato;
+	private int durata;
 
-    public Chiamata(String numeroChiamato, int durata) {
-        this.numeroChiamato = numeroChiamato;
-        this.durata = durata;
-    }
+	public Chiamata(String numeroChiamato, int durata) {
+		this.numeroChiamato = numeroChiamato;
+		this.durata = durata;
+	}
 
-    public String getNumeroChiamato() {
-        return numeroChiamato;
-    }
+	public String getNumeroChiamato() {
+		return numeroChiamato;
+	}
 
-    public int getDurata() {
-        return durata;
-    }
+	public int getDurata() {
+		return durata;
+	}
 }
-
